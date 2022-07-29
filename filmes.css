@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0 0 20px 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgb(30, 29, 29);
+}
+   
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-logo{
+    height: 150px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: right;
+}
+
+.menu-item{
+    font-weight: 400;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+#divBusca{
+    background-color:transparent;
+    border:solid 2px #d0ce52;
+    border-radius:10px;
+    width:200px;
+    height:32px;
+    margin: 26px;
+    outline: none;
+
+  }
+  
+  #txtBusca{
+    float:center;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    color: white;
+  }
+
+#poster {
+  max-height: 400px;
+  max-width: 1300px;
+
+}
+
+.doutorEstranho {
+  max-width: 1300px;
+  padding: 0 0 8px 50px;
+  max-height: 388px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+  .container-filmes{
+    max-height: 400px;
+    padding: 3% 0 0 8% ;
+    
+}
+
+  .catalago-img{
+    display: inline-block;
+    align-content:space-between;
+    object-fit: cover;
+    max-width: 400px;
+    max-height: 380px;
+    align-items:center;
+    padding: 0 3% 0 4rem ;
+    
+  }
+
+  .titulo{
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    padding: 30px 16px 0px 200px;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  #rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+  }
+
+  #logofooter{
+    height: 150px;
+    display:block;
+    margin:0 auto;
+  }
